@@ -28,11 +28,11 @@ uint8_t port = 1; // Range 1-223
 int packetCount = 0;
 
 // Device parameters for Back-End registration
-char DEVICE_EUI[] = "2DEE0F9F3EA8459B";
-char DEVICE_ADDR[] = "2DEE0F9F";
-char NWK_SESSION_KEY[] = "2B7E151628AED2A6ABF7158809CF4F3C";
-char APP_SESSION_KEY[] = "2B7E151628AED2A6ABF7158809CF4F3C";
-char APP_KEY[] = "000102030405060708090A0B0C0D0E0F";
+char DEVICE_EUI[] = "0000000000000000"; // Insert device EUI
+char DEVICE_ADDR[] = "00000000"; // Insert device address
+char NWK_SESSION_KEY[] = "2B7E151628AED2A6ABF7158809CF4F3C"; // Configured for TTN
+char APP_SESSION_KEY[] = "2B7E151628AED2A6ABF7158809CF4F3C"; // Configured for TTN
+char APP_KEY[] = "00000000000000000000000000000000"; // Insert unique (and secret!!) key here
 
 // Variables
 uint8_t error;
